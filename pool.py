@@ -1,4 +1,4 @@
-"""This module mimics the behaviour of threadpool"""
+"""This module mimics the behaviour of threadpool .. """
 
 import os
 import threading
