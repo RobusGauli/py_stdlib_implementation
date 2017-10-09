@@ -5,6 +5,7 @@ This represents the object whose value has not been returned yet"""
 
 #future can have its current state pending; or finished;'''
 import threading
+#this will try to import the threading library
 class ResultNotSetError(Exception):
     def __init__(self, value):
         self.value = value
